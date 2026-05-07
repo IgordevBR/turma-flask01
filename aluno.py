@@ -7,3 +7,6 @@ class Aluno:
 
     def login(self, email, senha):
         print("login realizado com sucesso")
+
+    def logout(self):
+        print("logout realizado com sucesso")
