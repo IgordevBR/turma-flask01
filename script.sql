@@ -6,4 +6,5 @@ create table 'tb_alunos'(
     email varchar(50) not null unique,
     senha varchar(19) not null,
     telefone varchar(15) not null
+    data_nasc date not null
 );
